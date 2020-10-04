@@ -17,28 +17,28 @@
         android:id="@+id/pokemon_name"
         android:textAlignment="center"
         android:textStyle="bold"
-        android:textSize="22dp"
+        android:textSize="28dp"
         android:paddingTop="10dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_number"
         android:textAlignment="center"
-        android:textSize="16dp"
+        android:textSize="20dp"
         android:paddingTop="5dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_type1"
         android:textAlignment="center"
-        android:textSize="16dp"
+        android:textSize="20dp"
         android:paddingTop="5dp" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_type2"
         android:textAlignment="center"
-        android:textSize="16dp"
+        android:textSize="20dp"
         android:paddingTop="5dp" />
 
     <Button
@@ -47,6 +47,7 @@
         android:id="@+id/pokemon_caught"
         android:onClick="toggleCatch"
         android:text="Catch"
+        android:textSize="20dp"
         android:textAlignment="center"
         android:textAllCaps="true" />
     <TextView
@@ -54,5 +55,5 @@
         android:layout_height="wrap_content"
         android:id="@+id/pokemon_desc"
         android:textAlignment="center"
-        android:textSize="16dp"/>
+        android:textSize="20dp"/>
 </LinearLayout>
