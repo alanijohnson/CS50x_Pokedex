@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PokemonActivity">
+
+    <ImageView
+        android:id="@+id/pokemon_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_name"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:paddingTop="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_number"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:paddingTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_type1"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:paddingTop="5dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_type2"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:paddingTop="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_caught"
+        android:onClick="toggleCatch"
+        android:text="Catch"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokemon_desc"
+        android:textAlignment="center"
+        android:textSize="16dp"/>
+</LinearLayout>
